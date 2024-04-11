@@ -4,13 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJERCICIO 2</title>
+    <script src="ej2.js"></script>
 </head>
 <body>
-    <header>
-        <h1>EJERCICIO 2</h1>
-    </header>
-    <section>
-        <h2>sis</h2>
-    </section>
+    <body class="cuerpo-ej2">
+        <div class="container">
+            <label for="mt">
+                <h1>SUELDO BASE</h1>
+            </label>
+            <br>
+
+            <div>
+                <h3>
+                    Ingresa el monto base
+                </h3>
+                <input class="button" 
+                type="text" 
+                id="mt" 
+                name="mt"
+                placeholder="Escribir monto base">
+            </div>
+            <br>
+
+            <div>
+                <h3>
+                    Ingresa la primer venta
+                </h3>
+                <input class="button" 
+                type="text" 
+                id="venta1" 
+                name="venta1"
+                placeholder="Venta 1">
+            </div>
+            <br>
+
+            <div>
+                <h3>
+                    Ingresa la segunda venta
+                </h3>
+                <input class="button" 
+                type="text" 
+                id="venta2" 
+                name="venta2"
+                placeholder="Venta 2">
+            </div>
+            <br>
+
+            <div>
+                <h3>
+                    Ingresa la tercer venta
+                </h3>
+                <input class="button" 
+                type="text" 
+                id="venta3" 
+                name="venta3"
+                placeholder="Venta 3">
+            </div>
+            <br>
+           
+            <button class="button" 
+            type="button" onclick="montobase()" 
+            id="button" name="button">
+                Calcular
+            </button>
+            <br>
+            <div class="content">
+            <span  id="psj"></span>
+            <span id="final"></span>
+        </div>
+        </div>
+    </body>
 </body>
 </html>
