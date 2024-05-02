@@ -9,5 +9,5 @@ function montobase()
 
     final = mt + psj;
     document.getElementById("psj").innerHTML = "El 10% de las 3 ventas es de " + psj;
-    document.getElementById("final").innerHTML = "y el monto total es de " + final;
+    document.getElementById("final").innerHTML = "El monto total es de " + final;
 }
